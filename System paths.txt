@@ -1,0 +1,37 @@
+SYSTEM PATHS
+
+What are System paths?
+
+Paths are system variables that the operating system uses to find & pinpoint need executables (ike files, applications) from the command line interface or terminal window.
+
+For instance, C:\Chryswenort Networks\home\Nice\text.txt. This implies that from the local disk to a folder named "Chryswenort Networks" and then to a folder called "home", then
+
+to another folder "Nice" and then to the text.txt file contained in it.
+
+They are also lists of directories or a chain showing the exact location of executable files in the system.
+
+HOW TO ESTABLISH SYSTEM PATHS ON WINDOWS.
+
+1. First open your command prompt by clicking on the start button on the keyboard and type "cmd", then select it.
+
+2. Then to add a new user path, type "pathman /au" and then specify the file path. For instance, pathman /au c:desktop\Users\Pes_2019.
+
+3. Then to remove the selected path you can use "pathman /ru" command and then specify the file path. For instance pathman /ru c:desktop\Users\Pes_2019.
+
+
+HOW TO ESTABLISH SYSTEM PATHS ON LINUX.
+
+1. You have to first open your linux command line or terminal window.
+
+2. Then log in as the root directory.
+
+3. Then you type "cd home" to navigate to your home directory.
+
+4. Open the .bashrc file in the home directory.
+
+5. Then add the following line in your terminal "export PATH=/usr/java/<JDK Directory>/bin:$PATH". Replace the JDK Directory with your java installation directory.
+
+6. You can also add multiple paths of your choice by just changing the present directory by using "cd folder-name".
+
+7. Then you save and exit.
+

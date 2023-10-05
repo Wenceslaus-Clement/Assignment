@@ -1,0 +1,36 @@
+STEPS INVOLVED IN PUSHING A FOLDER TO A GITHUB REPOSITORY USING THE DEFAULT HTTP.
+
+1. Open the folder you want to push to your Github or if you don't have one, you create one and name it.
+
+2. Open the folder and create files. Make sure that you specify the file extension inorder for it to have an identity (If you just created a new folder).
+
+3. In that your folder, right click and select the "Open git bash here" option.
+
+4. Go to your Github account and create a new repository and give it the same name you named your folder to prevent conflict.
+
+5. Then in your gitbash type "git init". This is to initialize the folder you created inorder for it to be git enabled.
+
+6. Then you add all the contents of folder by using " git add . ".
+
+7. Then you can check you git status to confirm if your files were added.
+
+8. Then you commit by using " git commit -m "type in you commit here(message)" ".
+
+9. Then you have add the origin by using "git remote add origin https://......"
+
+Note: the https://... is the one you copied from the repository you created in your Github account.
+
+10. Then you change your default branch from master to main by using "git branch -M main".
+
+11. Then you push to your Github by using "git push -u origin main".
+
+12. Then it will demand you to sign in using token or your browser.
+
+13. If you don't have a personal access token, sign in through your browser.
+
+
+Try it out........
+
+
+
+
